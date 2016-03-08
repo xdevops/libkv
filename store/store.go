@@ -20,7 +20,7 @@ const (
 	BOLTDB Backend = "boltdb"
 
 	// IBM Service Discovery (ayeka)
-	AYEKA Backend = "ayeka" !@#$%
+	AYEKA Backend = "ayeka"
 )
 
 var (
