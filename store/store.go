@@ -18,6 +18,9 @@ const (
 	ZK Backend = "zk"
 	// BOLTDB backend
 	BOLTDB Backend = "boltdb"
+
+	// IBM Service Discovery (ayeka)
+	AYEKA Backend = "ayeka" !@#$%
 )
 
 var (

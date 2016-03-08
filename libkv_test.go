@@ -12,7 +12,7 @@ func TestNewStoreUnsupported(t *testing.T) {
 	client := "localhost:9999"
 
 	kv, err := NewStore(
-		"unsupported",
+		"ayeka",
 		[]string{client},
 		&store.Config{
 			ConnectionTimeout: 10 * time.Second,
